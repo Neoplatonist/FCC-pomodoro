@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+  <title>FCC - Pomodoro Clock</title>
+
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+  <header>
+    <nav>
+      <h1>Pomodoro Clock</h1>
+    </nav>
+  </header>
+
+  <main>
+    <section id="controls" class="container">
+      <article class="item">
+        <h4>Break Length</h4>
+
+        <div class="button-group">
+          <button id="test" type="button" class="b-btn">-</button>
+
+          <h5 id="break">1</h5>
+
+          <button type="button" class="b-btn">+</button>
+        </div>
+      </article>
+
+      <article class="item">
+        <h4>Session Length</h4>
+
+        <div class="button-group">
+          <button type="button" class="s-btn">-</button>
+          
+          <h5 id="session">1</h5>
+
+          <button type="button" class="s-btn">+</button>
+        </div>
+      </article>
+    </section>
+
+    <section class="main">
+      <h2 id="timeTitle">Session</h2>
+      <h1 id="time">1</h1>
+    </section>
+
+    <section class="container">
+      <button id="start" type="button">Start Timer</button>
+      <button id="reset" type="button">Reset Timer</button>
+    </section>
+  </main>
+
+  <footer>
+
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.1/moment.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
